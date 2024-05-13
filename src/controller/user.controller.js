@@ -119,7 +119,6 @@ export const resetPassword = async (req, res, next) => {
       });
     const token = await user.getResetPasswordToken(); //generating the token hashing it and storing it in the document
     await user.save();
-    console.log(`${req.protocol}://${req.get("host")}`);
     const callbackUrl = `${process.env.BASE_URL}/user/set-password/${token}`;
     sendResetPasswordMail(email, callbackUrl);
     clearTokenDetails(user._id); //token will be cleared from the document after 10 mins
