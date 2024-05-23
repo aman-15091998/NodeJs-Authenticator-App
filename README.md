@@ -1,5 +1,5 @@
 
-# Placement Cell App
+# NodeJs Authenticator App
 
 NodeJs Authenticator App is the starter code for any webApp that requires authentication. It allows users to register and login either using email or through google login. Users can update their password while they are logged in and can also reset their password in case they forget it.
 
