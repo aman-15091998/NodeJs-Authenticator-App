@@ -1,7 +1,7 @@
 
 # NodeJs Authenticator App
 
-NodeJs Authenticator App is the starter code for any webApp that requires authentication. It allows users to register and login either using email or through google login. Users can update their password while they are logged in and can also reset their password in case they forget it.
+NodeJs Authenticator App is the starter code for any webApp that requires authentication. It allows users to register and login either using email or through google login. Users can update their password while they are logged in and can also reset their password in case they forget it. Live link - https://nodejs-authenticator-app.onrender.com/
 
 # Installation
 1) git clone https://github.com/aman-15091998/NodeJs-Authenticator-App.git
